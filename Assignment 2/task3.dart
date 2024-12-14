@@ -1,0 +1,19 @@
+import 'dart:io';
+
+void main() {
+  List<String> days = [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+  ];
+
+  while (days.length != 0) {
+    days.removeLast();
+  }
+
+  print(days);
+}
