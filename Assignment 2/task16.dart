@@ -8,5 +8,5 @@ void main() {
 }
 
 List<int> filter(List<int> numbers) {
-  return numbers.add((num) => num * num).toList();
+  return numbers.where((num) => num % 2 == 0).toList();
 }
